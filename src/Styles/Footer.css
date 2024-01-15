@@ -1,0 +1,49 @@
+.overlay-container-Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 10px;
+  z-index: 1;
+}
+
+.Footer {
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px;
+  background-color: #333;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 8vh;
+  z-index: 1;
+}
+
+.Footer_Mention {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Footer_Button a {
+  text-decoration: none;
+  color:black;
+  margin: 0 20vh;
+}
+
+.Footer_Button img {
+  width: 50px;
+  height: 50px;
+}

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Components/NavBar';
+import Footer from './Components/Footer';
+import Welcome from './Components/Welcome';
+import PCarousel from './Components/Carousel';
+import './Styles/Homepage.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="overlay-container-video">
+        <video autoPlay loop muted className="background-video">
+          <source src="/Assets/videoBG.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div className="overlay-container">
+        <Navbar />
+      </div>
+      <div className="overlay-container-Footer">
+        <Footer />
+      </div>
+      <Welcome />
+      <PCarousel />
     </div>
   );
 }
