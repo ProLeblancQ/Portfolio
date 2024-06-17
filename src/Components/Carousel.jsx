@@ -30,8 +30,8 @@ const PCarousel = () => {
 
   const images = [
     '/Assets/ENIGME.png',
-    '/Assets/Essai4.png',
-    '/Assets/Essai4.png',
+    '/Assets/LogoSuperPLus.png',
+    '/Assets/LogoPokedex.png',
     '/Assets/Essai4.png',
     '/Assets/Essai4.png',
     '/Assets/Essai4.png',
@@ -39,9 +39,9 @@ const PCarousel = () => {
   ];
 
   const imageLinks = [
-    'https://example.com/link1',
-    'https://example.com/link2',
-    'https://example.com/link3',
+    'https://github.com/baptisteharbuz/Escape_Game',
+    'https://github.com/ProLeblancQ/SuperPlusUltra/tree/master',
+    'https://github.com/ProLeblancQ/Pokedex',
     'https://example.com/link4',
     'https://example.com/link5',
     'https://example.com/link6',

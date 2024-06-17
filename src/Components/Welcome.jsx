@@ -9,12 +9,16 @@ function Welcome() {
       </div>
       <div className='text-container'>
         <p>
-          Welcome to my portfolio!
+          <h1 className='title'>About me ! </h1>
+          hi, I'm Quentin 
           <br />
-          Former chef, now working in web and mobile development. Here, you can find my different projects and participations. Images and summaries of projects, the code will be in detail directly on my GitHub.
-          Explore my work and don't hesitate to contact me to discuss future collaborations.
-          <br /> 
-          thanks for visiting!
+          <p> I am currently looking for an apprenticeship in web development to obtain a Bachelor's degree (bac +4)
+          as an Application Designer and Developer.
+          After years in the culinary field, I transitioned to web and mobile development 💻.
+          <br />
+          I love challenges, teamwork, and continuous learning.
+          My unique background gives me precision and creativity, which I now apply in my new career.
+          </p> 
         </p>
       </div>
     </div>
