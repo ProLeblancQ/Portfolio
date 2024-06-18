@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Welcome from './Components/Welcome';
-import PCarousel from './Components/Carousel';
 import './Styles/Homepage.css';
 
 function App() {
@@ -16,11 +15,11 @@ function App() {
       <div className="overlay-container">
         <Navbar />
       </div>
+      <Welcome />
       <div className="overlay-container-Footer">
         <Footer />
       </div>
-      <Welcome />
-      <PCarousel />
+      
     </div>
   );
 }
