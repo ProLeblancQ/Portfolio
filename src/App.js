@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Welcome from './Components/Welcome';
+import Bienvenue from './Components/Bienvenue';
 import './Styles/Homepage.css';
 
 function App() {
+  const [language, setLanguage] = useState('en');
+
+  const handleLanguageChange = (lang) => {
+    setLanguage(lang);
+  };
+
   return (
     <div className="App">
       <div className="overlay-container-video">
@@ -13,13 +20,12 @@ function App() {
         </video>
       </div>
       <div className="overlay-container">
-        <Navbar />
+        <Navbar onChangeLanguage={handleLanguageChange} />
       </div>
-      <Welcome />
+      {language === 'en' ? <Welcome /> : <Bienvenue />}
       <div className="overlay-container-Footer">
         <Footer />
       </div>
-      
     </div>
   );
 }
